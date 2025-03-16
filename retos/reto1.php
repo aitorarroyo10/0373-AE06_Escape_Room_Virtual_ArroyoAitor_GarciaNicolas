@@ -13,7 +13,7 @@
 <?php
     session_start();
     if (!($_SESSION["reto1"]=='check')) {
-        header("Location: ../bienvenida.php");
+        header("Location: ../index.php");
     }
 ?>
 

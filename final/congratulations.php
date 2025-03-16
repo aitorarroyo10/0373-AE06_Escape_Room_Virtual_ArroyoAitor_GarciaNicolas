@@ -12,7 +12,7 @@
 <?php
     session_start();
     if (!($_SESSION["congratulations"]=='check')) {
-        header("Location: ../bienvenida.php");
+        header("Location: ../index.php");
     }
 ?>
 
@@ -20,7 +20,7 @@
 
         <h1>Enhorabuena, ¡has completado el Escape Room! ¿Quieres volver a jugar?</h1>
 
-    <a href="../bienvenida.php">Volver a jugar</a>
+    <a href="../index.php">Volver a jugar</a>
 
     </div>
 
